@@ -7,9 +7,8 @@
 }
 
 .navbar .nav-item.active,
-.navbar .nav-item:active {
+.navbar .nav-item:hover {
   border-bottom: 3px solid #46A358;
-  font-weight: bold;
 }
 
 .black {
