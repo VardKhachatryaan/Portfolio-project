@@ -1,0 +1,17 @@
+.navbar {
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+}
+
+.logo {
+  width: 34px;
+}
+
+.navbar .nav-item.active,
+.navbar .nav-item:active {
+  border-bottom: 3px solid #46A358;
+  font-weight: bold;
+}
+
+.black {
+  color: #3D3D3D;
+}
