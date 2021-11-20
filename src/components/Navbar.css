@@ -14,3 +14,9 @@
 .black {
   color: #3D3D3D;
 }
+
+.navbar-btn {
+  background-color: #46A358;
+  border: none;
+  outline: none;
+}

@@ -6,9 +6,9 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 const Navbar = () => {
     return (
       <nav className="navbar navbar-expand-lg navbar-light mt-4 p-0">
-        <a className="navbar-brand align-items-center py-3" href="#">
+        <a className="navbar-brand d-flex align-items-center py-3" href="#">
           <img src={logo} alt="Logo" className="logo"/>
-          <span className="text-success h3">GREENSHOP</span>
+          <span className="text-success h3 m-0">GREENSHOP</span>
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@ const Navbar = () => {
           <ul className="navbar-nav navbar-right py-3 d-flex align-items-center">
             <li><a href="#"><i className="bi bi-search mx-2 black"></i></a></li>
             <li><a href="#"><i className="bi bi-cart3 mx-4 black"></i></a></li>
-            <button type="button" className="btn btn-default btn-success">
+            <button type="button" className="btn btn-default btn-success navbar-btn">
               <i className="bi bi-box-arrow-right me-2"></i>
               Login
             </button>

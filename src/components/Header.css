@@ -1,0 +1,41 @@
+.header-content {
+  background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+  margin-top: 0.75rem !important;
+  padding: 0 2.5rem;
+}
+
+.header-subtitle {
+  font-size: 14px;
+  color: #3D3D3D;
+  text-transform: uppercase;
+}
+
+.header-heading {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.green {
+  color: #46A358;;
+}
+
+.header-par {
+  color: #727272;
+}
+
+.header-btn {
+  background-color: #46A358;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 2.75rem;
+}
+
+.header-small__img {
+  position: absolute;
+  bottom: 7%;
+  left: 10%;
+}
+
