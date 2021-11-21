@@ -6,8 +6,12 @@
   width: 34px;
 }
 
-.navbar .nav-item.active,
-.navbar .nav-item:hover {
+.nav-item {
+  border-bottom: 3px solid transparent;
+}
+
+.nav-item.active,
+.nav-item:hover {
   border-bottom: 3px solid #46A358;
 }
 
@@ -16,7 +20,7 @@
 }
 
 .navbar-btn {
-  background-color: #46A358;
+  background-color: #46A358 !important;
   border: none;
   outline: none;
 }

@@ -1,0 +1,25 @@
+aside {
+  background-color: #FBFBFB;
+}
+
+.sidebar-header {
+  font-size: 18px;
+  color: #3D3D3D;
+  font-weight: bold;
+  padding: 0.875rem 1.125rem;
+}
+
+.list-item {
+  color: #3D3D3D;
+}
+
+.list-item:hover {
+  color: #46A358;
+}
+
+.filter-btn {
+  padding: 8px 26px;
+  background-color: #46A358;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
